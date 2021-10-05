@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="photos/study.png" />
         <link rel="stylesheet" href="CSS.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Boy753</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -24,6 +25,36 @@
                 </div>
                 <!-- meniu -->
                     <meniu >
+                      <div class="phonemeniu">
+                        <!-- Top Navigation Menu -->
+                        <div class="topnav">
+                        <a href="C:\Users\User\Desktop\Boy753\index.html" class="active">Boy753</a>
+                        <!-- Navigation links (hidden by default) -->
+                        <div id="myLinks">
+                          <a  href="C:\Users\User\Desktop\Boy753\index.html" style="color: rgb(255, 255, 255); text-decoration: none;"><b class="hover">Home</b></a>
+                          <a  href="C:\Users\User\Desktop\Boy753\knowledge.html" style="color: rgb(255, 255, 255); text-decoration: none;"><b class="hover">knowledge</b></a>
+                          <a  href="C:\Users\User\Desktop\Boy753\about.html" style="color: rgb(255, 253, 253); text-decoration: none;"><b class="hover">About</b></a>
+                          <a  href="#footer" style="color: rgb(255, 255, 255); text-decoration: none;"><b class="hover">contact</b></a>
+                        </div>
+                        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        </div>
+                        <script>
+                                            /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+                            function myFunction() {
+                            var x = document.getElementById("myLinks");
+                            if (x.style.display === "block") {
+                                x.style.display = "none";
+                            } else {
+                                x.style.display = "block";
+                            }
+                            }
+                        </script>
+            
+                </div>
+                      <div class="desktop-meniu">
                         <nav style="background-color: rgb(0, 0, 0);" class="nav">
                             <ul class="nav__list">
                                 <li><a  href="C:\Users\User\Desktop\Boy753\index.html" style="color: rgb(255, 255, 255); text-decoration: none;"><b class="hover">Home</b></a></li>
@@ -32,6 +63,7 @@
                                 <li><a  href="#footer" style="color: rgb(255, 255, 255); text-decoration: none;"><b class="hover">contact</b></a></li>
                             </ul>
                         </nav>
+                      </div>
                     </meniu>
                 </div>
             <!-- headeri -->
@@ -39,17 +71,44 @@
                 <div class="BOX-animation" ><h1 id="satauri"  >Luka Tskhomelidze</h1></div>
             </div>
         </header>
-        <main >
-        
-        </main>
-        <main2 >
+        <main id="codna">
+          <!-- slideshow -->
+            
+            <div class="conteiner" >
+                <div class="intruduction">
+                    <p><b class="iknow">About me</b></p>
+               
+            </div>
             <div id="feris-mcvleli-gilaki"><b>change colors</b></div>
             <div>
               <div class="main2">
                   <div class="buttondiv"></div>
+
+                  <div class="about_me">
+                      <div class="profile_photo">
+                          <img src="C:\Users\User\Desktop\Boy753\117710972_3060745420640967_6770357868771346737_n.jpg" alt="error">
+                      </div>
+                         <div class="about_me_text">
+                            <h3>Name : [Luka]</h3>
+                            <h3>Lastname : [Tskhomelidze]</h3>
+                            <h4>City : [Tbilisi]</h3>
+                            <h4>University : [GTU]-{2020-2024}</h3>
+                            <h4>Course : [Computer Science]</h3>
+
+                            <div class="about_me_text_p">
+                                <p>Age : [19]</p>
+                                <p>Languages : [English, Georgian]</p>
+                                <p>Github : [<a href="https://github.com/Boy753hub" target="_blank">Github Profile</a>]</p>
+                            </div>
+                        </div>
+                  </div>
               </div>
-              
             </div>
+               
+        </main>
+        <main2 >
+          
+              
         </main2>
         <footer id="footer">
          <!-- links for contact -->
@@ -62,6 +121,10 @@
             </div>
             
         </footer>
+        <!--<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="exponential.js"></script>-->
         <script type="text/javascript" src="javascript.js"></script>
     </body>
 </html>
